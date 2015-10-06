@@ -1,0 +1,734 @@
+<!doctype html>	
+
+<html>	
+
+<head>	    
+
+	<title>Ashley</title>	    
+	
+	
+	<meta charset="utf-8" />	    
+	
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />	    
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1" />	    	    
+	
+	
+	<style>	    	    	
+	
+		body {	    	
+		
+			font-family: Arial, Helmet, Freesans, sans-serif;	    	
+		
+			margin:0;	    	
+		
+			line-height:16px;	    	
+		
+		}	    		    	
+		
+		
+		#top-bar {	    		
+		
+			width:100%;	    		
+			
+			height:46px;	    		
+			
+			background-color:#9710F7;	    		    	
+			
+				margin:0;	    	
+				
+		}	
+		
+		
+		.fixed-width {
+
+			float:center;
+		
+			width:1150px;	    		
+			
+			margin: 0 auto;	    	
+			
+		}	    		    	
+		
+		
+		#bbc-logo {				
+		
+			padding-right:10px;    				
+			
+			float:left;					
+			
+			border-right:1px solid #990000;				
+			
+			height:46px;	    	
+			
+		}	    		    	
+
+		
+		#bbc-logo img {	    		
+			
+			margin:10px 10px 0 10px;	    	
+				
+		}	    		    	
+		
+		
+		#sign-in {	    		
+		
+			float:left;	    		
+				
+			color:#FFF;				
+				
+			height:41px;	    		
+				
+			width:200px;	    	
+				
+		}	    		    	
+		
+		
+		#sign-in:hover {	    		
+		
+			border-bottom:5px solid white;	    	
+			
+		}	    		
+			
+		
+		#sign-in p {	    		
+		
+			margin: 13px 0 0 50px;	    	
+			
+		}	    		    	
+			
+			
+		#top-menu ul {	    		
+		
+			float:right;	    			  
+
+			padding:0; 
+			
+			margin:0;	    		
+			
+			height:46px;	    	
+			
+		}	    		    	
+		
+		#top-menu li {	    		
+		
+			float:left;	    		
+			
+			color:white;	    		
+			
+			border-left:1px solid #990000;	    		
+			
+			height:33px;	    		
+			
+			list-style:none;	    		
+			
+			padding: 13px 20px 0 20px;	    	
+			
+		}	    				
+		
+		#top-menu li:hover {	    		
+		
+			height:28px;	    	
+			
+		}	    		    	
+		
+		
+		.white-border:hover {	    		
+		
+			border-bottom:5px solid white;	    	
+			
+		}	    		
+			
+		#news:hover {	    		
+		
+			border-bottom:5px solid #9b2313;	    	
+			
+		}	    		    	
+		
+		#sport:hover {	    		
+		
+			border-bottom:5px solid #ffe711;	    	
+			
+		}	    		    	
+		
+		#weather:hover {	    		
+		
+			border-bottom:5px solid #77cdff;	    	
+			
+		}	    		    	
+		
+		#iplayer:hover {	    		
+		
+			border-bottom:5px solid #ed3482;	    	
+			
+		}	    		    	
+		
+		#top-menu input {	    		
+			
+			height:25px;	    		
+			
+			border:none;	    		
+			
+			width:180px;	    		
+			
+			font-weight:bold;	    		
+			
+			color:black;	    		
+			
+			font-size:110%;	    		
+			
+			padding-left:10px;	    		
+			
+			position:relative;	    		
+			
+			top:-4px;	    	
+			
+		}	    		
+			
+			
+		#title-bar {	    	
+		
+			background-color:#9710F7;	    	
+			
+			width:100%;	    	
+			
+			height:110px;	    	
+			
+		}
+		
+			
+		#news-title {				
+		
+			padding:35px 0 0 10px;   				
+			
+			float:left;					
+			
+			font-size:50px;				
+			
+			color:white;	    	
+			
+		}	    		    	
+		
+		
+		#date {	    		
+		
+			float:left;	    		
+			
+			color:white;	    		
+			
+			padding:30px 0 0 20px;	    	
+			
+		}	    		    	
+		
+		
+		#rss {	    		
+		
+			float:right;	    		
+			
+			color:white;	    		
+				
+			padding:30px 20px 0 0;	    	
+				
+		}	    		    	
+		
+		
+		#rss img {	    		
+		
+			height:16px;	    		
+			
+			position:relative;	
+				
+				
+			top:2px;	    	
+			
+		}	    		    	
+		
+		.clear {	    		
+		
+			clear: both;	    	
+			
+		}	    		    	
+		
+		
+		#news-menu ul {	    		
+		
+			background-color:#3F046E;	    		
+			
+			width:100%;	    		
+			
+			height:24px;	    		
+			
+			padding:7px 0 0 0;	    		
+			
+			position:relative;	    		
+			
+			top:-17px;	    	
+			
+		}	    		    	
+		
+		
+		#news-menu li {	    		
+		
+			border-right:1px solid #9710F7;	    	
+
+			background-color:#3F046E;	    		
+			
+			float:left;	    		
+			
+			list-style:none;	    		
+			
+			color:white;	    		
+			
+			padding: 0 10px 0 10px;	    		
+			
+			font-size:90%;	    	
+			
+		}	    		    	
+		
+		
+		#eanda {	    		
+		
+			border-right:none;	
+			
+		}	    		    	
+		
+		
+		#news-menu a {		    		
+		
+			color:white;	    	
+			
+		}	    		    	
+		
+		
+		h1 a {	    		
+		
+			color:#5D691F;	    		
+			
+			font-weight:bold;	    		
+			
+			font-size:105%;	    		
+			
+			float:left;	    		
+			
+			padding-bottom:30px;	    	
+			
+		}	    		    	
+		
+		
+		a {	    		
+		
+			text-decoration:none;	    	
+			
+		}	    		    	
+		
+		
+		#news-container {	    		
+		
+			position:relative;	    		
+			
+			top:-15px;	    	
+			
+		}	    		    				
+		
+		
+		.new {	    		
+		
+			color:#990000;	    		
+			
+			
+			float:left;	    		
+			
+			padding: 6px 0 0 10px;	    	
+			
+		}	
+		
+		
+		#news-left {	    		
+		
+			float:left;	    		
+			
+			width:727px;	    	
+			
+		}	    		    	
+			
+		
+		.newsimage {	    		
+		
+			float:left;	    	
+			
+		}	    		    	
+		
+		
+		.news-info {
+		
+			float:left;	    		
+			
+			width:290px;	    		
+			
+			left:15px;	    		
+			
+			padding: 0 20px 0 20px;	    	
+			
+		}	    		    	
+		
+		
+		.live {	    		
+		
+			background-color:#9710F7;	    		
+			
+			color:#FFF;	    		
+			
+			padding: 0 3px 0 3px;	    		
+			
+			margin-right:4px;	    		
+			
+			font-size:14px;	    		
+			
+			position:relative;	    		
+			
+			top:-3px;	    	
+			
+		}	    		    	
+		
+		
+		.news-info p {	
+		
+			margin:0;	    		
+			
+			color: #616161;	    		
+			
+			line-height:19px;	    	
+			
+		}	    		    	
+			
+			
+		.news-info a {	    		
+		
+			color:#78872A;	    	
+			
+		}	    		    	
+		
+		
+		a:hover {	    		
+		
+			text-decoration:underline;	    	
+			
+		}	    		    	
+		
+		
+		#watch-listen {	    		
+		
+			margin-top:25px;	    		
+			
+			background-color:#EEEEEE;	    		
+			
+			float:left;	    	
+			
+		}	    		    	
+		
+		
+		#watch-listen h2 {	    		
+		
+			color:#5D691F;	    		
+			
+			margin:10px 0 10px 10px;	    		
+			
+			font-size:180%;	    	
+			
+		}	   	
+		
+		
+		#watch-listen-links a {	    		
+		
+			font-size:140%;	    		
+			
+			font-weight:bold;	
+			
+			color:#5D691F;	    	
+			
+		}	    		    	
+		
+		
+		#arrow-left {	    		
+		
+			float:left;	    		
+			
+			border-right: 1px solid white;	    	
+			
+		}	    		    	
+		
+		
+		.wl-block {	    		
+		
+			float:left;	    		
+			
+			background-color:#55EA28;	    		
+			
+			border-right: 1px solid white;	    		
+			
+			width:179px;	    		
+			
+			height:155px;	    	
+			
+		}	    		    	
+		
+		
+		.wl-block-link-container {	    		
+		
+			padding:5px;	    	
+			
+		}	    		    	
+		
+		
+		.wl-block-link-container a {	    		
+		
+			color:white;	    	}	    		    	
+			
+			#arrow-left {	    		
+			
+			float:left;	    		
+			
+			border-left: 1px solid white;	    	
+			
+		}	
+		
+	
+	</style>	
+	
+	
+</head>	
+	
+	
+<body>	
+					
+	
+</div>						
+	
+	<div class="clear"></div>			
+	
+	
+	<div id="title-bar">					
+	
+		<div class="fixed-width">						
+		
+		<div id="news-title">				
+		
+			ASHLEY			
+			
+		</div>						
+			
+		<div id="date">				
+		
+			<p><strong>24 September, 2015</strong> Last updated at 09:13</p>			
+			
+		</div>						
+			
+		<div id="rss">				
+		
+			<p>RSS <img src="images/rss.png" /> </p>			
+			
+		</div>						
+		
+		<div class="clear"></div>						
+		
+		<div id="news-menu">				
+		
+			<ul>					
+			
+				<li>						
+				
+					<a href="#bljump">Blogs</a>					
+					
+				</li>					
+					
+				<li>						
+					
+					<a href="#twjump">Twitter</a>					
+					
+				</li>					
+					
+				<li>						
+				
+					<a href="#injump">Instagram</a>	
+					
+				</li>					
+				
+				<li>						
+				
+					<a href="#afjump">Afilliates</a>					
+					
+				</li>					
+				
+				<li>						
+				
+					<a href="#abjump">About Me</a>					
+					
+				</li>					
+				
+				<li style="border-right:none">						
+				
+					<input type="text" placeholder="Search" /					
+					
+				</li>				
+				
+			</ul>			
+			
+		</div>					
+		
+	</div>						
+	
+	<div class="fixed-width">						
+		
+		<div id="news-left">
+
+			<a name="bljump"></a>
+		
+			<h1><a href="">Blogs</a></h1>												
+			
+			<div class="news-info">				
+			
+				<p>This is some filler text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod elit vel velit egestas hendrerit. In nulla arcu, maximus non condimentum eget, ultricies et leo. Proin fringilla ultricies ipsum nec mollis.This is some filler text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod elit vel velit egestas hendrerit. In nulla arcu, maximus non condimentum eget, ultricies et leo. Proin fringilla ultricies ipsum nec mollis.</p>								
+				
+				<p><a href="">Leave a comment</a></p>				
+				
+				<p><a href=""><span class="live">Live</span> Check out other posts from Sept. 2015</a></p>				
+				
+				<p><a href="">More from my YouTube</a></p>				
+				
+									
+				
+			</div>						
+			
+		</div>
+			
+		
+		<div id="news-left">	
+
+			<a name="twjump"></a>
+		
+			<h1><a href="">Twitter</a></h1>												
+			
+			<div class="news-info">				
+			
+				<p>This is some filler text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod elit vel velit egestas hendrerit. In nulla arcu, maximus non condimentum eget, ultricies et leo. Proin fringilla ultricies ipsum nec mollis.</p>								
+				
+				<p><a href="">Leave a comment</a></p>				
+				
+				<p><a href=""><span class="live">Live</span> Check out other posts from Sept. 2015</a></p>				
+				
+				<p><a href="">More from my YouTube</a></p>				
+				
+			</div>						
+			
+		</div>
+
+						
+				
+		<div id="news-left">						
+		
+			<a name="injump"></a>
+			
+			<h1><a href="">Instagram</a></h1>						
+			
+			<div class="news-info">				
+			
+				<p>This is some filler text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod elit vel velit egestas hendrerit. In nulla arcu, maximus non condimentum eget, ultricies et leo. Proin fringilla ultricies ipsum nec mollis.This is some filler text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod elit vel velit egestas hendrerit. In nulla arcu, maximus non condimentum eget, ultricies et leo. Proin fringilla ultricies ipsum nec mollis.</p>								
+				
+				<p><a href="">Leave a comment</a></p>				
+				
+				<p><a href=""><span class="live">Live</span> Check out other posts from Sept. 2015</a></p>				
+				
+				<p><a href="">More from my YouTube</a></p>				
+				
+			</div>						
+			
+		</div>
+		
+
+		<div id="news-left">
+
+			<a name="afjump"></a>
+		
+			<h1><a href="">Affilliates</a></h1>						
+			
+			<div class="news-info">				
+			
+				<p>This is some filler text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod elit vel velit egestas hendrerit. In nulla arcu, maximus non condimentum eget, ultricies et leo. Proin fringilla ultricies ipsum nec mollis.This is some filler text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod elit vel velit egestas hendrerit. In nulla arcu, maximus non condimentum eget, ultricies et leo. Proin fringilla ultricies ipsum nec mollis.</p>								
+				
+				<p><a href="">Leave a comment</a></p>				
+				
+				<p><a href=""><span class="live">Live</span> Check out other posts from Sept. 2015</a></p>				
+				
+				<p><a href="">More from my YouTube</a></p>				
+				
+			</div>						
+			
+		</div>			
+		
+			
+		<div id="news-left">						
+		
+			<a name="abjump"></a>
+			
+			<h1><a href="">About Me</a></h1>						
+			
+			<div class="news-info">				
+			
+				<p>This is some filler text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod elit vel velit egestas hendrerit. In nulla arcu, maximus non condimentum eget, ultricies et leo. Proin fringilla ultricies ipsum nec mollis.This is some filler text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod elit vel velit egestas hendrerit. In nulla arcu, maximus non condimentum eget, ultricies et leo. Proin fringilla ultricies ipsum nec mollis.</p>								
+				
+				<p><a href="">Leave a comment</a></p>				
+				
+				<p><a href=""><span class="live">Live</span> Check out other posts from Sept. 2015</a></p>				
+				
+				<p><a href="">More from my YouTube</a></p>				
+				
+			</div>						
+			
+		</div>	
+
+		
+		<div id="watch-listen">				
+		
+			<h2>Around the web</h2>								
+			
+			<div class="watch-carousel">																			
+				
+				<div class="wl-block">																								
+				
+					<div class="wl-block-link-container">													
+				
+						<a href="">PIC LINK</a>		
+
+					</div>											
+					
+				</div>						
+				
+				<div class="wl-block">																								
+				
+					<div class="wl-block-link-container">													
+				
+						<a href="">VID LINK</a>												
+					
+					</div>											
+					
+				</div>																			
+				
+			</div>								
+			
+			<div id="watch-listen-links">									
+			
+				<p><span class="live">Live</span><a href="">Text link 1</a>					
+				
+				<p><span class="live">Live</span><a href="">Text Link 2</a>					
+				
+				<p><span class="live">Live</span><a href="">Text Link 3</a>							
+				
+			</div>				
+		
+	</div>					
+		
+</div>	
+		
+</body>	
+		
+</html>	
